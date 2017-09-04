@@ -1,7 +1,7 @@
 package Bean;
 
 /**
- * Created by Administrator on 2017/8/30.
+ * Created by Administrator on 2017/9/4.
  */
 public class Calculator {
     private float num1;

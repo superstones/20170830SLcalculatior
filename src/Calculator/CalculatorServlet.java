@@ -2,9 +2,7 @@ package Calculator;
 
 
 import java.io.IOException;
-
 import Bean.Calculator;
-
 
 /**
  * Created by Administrator on 2017/8/30.
@@ -13,7 +11,7 @@ public class CalculatorServlet extends javax.servlet.http.HttpServlet {
 
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
 
-        Calculator calculator = new Calculator();
+       Calculator calculator=new Calculator();
         calculator.setNum1(Float.parseFloat(request.getParameter("num1")));
         calculator.setOp(request.getParameter("op"));
         calculator.setNum2(Float.parseFloat(request.getParameter("num2")));
